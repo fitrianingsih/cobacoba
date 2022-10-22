@@ -19,6 +19,7 @@ Button pindah;
             public void onClick(View v) {
                 Intent pindahhal = new Intent(MainActivity.this, halaman2.class);
                 MainActivity.this.startActivity(pindahhal);
+                MainActivity.this.finish();
             }
         });
     }
